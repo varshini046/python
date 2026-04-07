@@ -1,0 +1,26 @@
+# Student Details Program
+
+name = input("Enter name: ")
+regno = input("Enter reg no: ")
+dept = input("Enter department: ")
+
+day = input("Enter birth day: ")
+month = input("Enter birth month: ")
+year = input("Enter birth year: ")
+
+m1 = int(input("Enter marks for subject 1: "))
+m2 = int(input("Enter marks for subject 2: "))
+m3 = int(input("Enter marks for subject 3: "))
+m4 = int(input("Enter marks for subject 4: "))
+m5 = int(input("Enter marks for subject 5: "))
+
+total = m1 + m2 + m3 + m4 + m5
+percentage = total / 5
+
+print("\n--- Student Details ---")
+print("Name:", name)
+print("Reg No:", regno)
+print("Department:", dept)
+print("DOB:", day, "/", month, "/", year)
+print("Total marks:", total)
+print("Percentage:", percentage)
